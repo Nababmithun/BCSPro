@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_marginTop="20dp"
+            app:cardElevation="4dp"
+            android:layout_margin="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:fontFamily="@font/solaimanilipi"
+
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:text="লগইন"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                >
+
+
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="300dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="@font/solaimanilipi"
+                    android:textSize="16dp"
+
+                    android:hint="ইমেল"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/colorPrimaryDark">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="300dp"
+                        android:id="@+id/email"
+                        android:inputType="textEmailAddress"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="@font/solaimanilipi"
+                    android:textSize="16dp"
+
+                    android:hint="পাসওয়ার্ড"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/colorPrimaryDark">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/password"
+                        android:inputType="textPassword"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Button
+                    android:fontFamily="@font/solaimanilipi"
+                    android:textSize="16dp"
+
+                    android:id="@+id/btnlogin"
+                    android:layout_marginTop="20dp"
+                    android:textAllCaps="false"
+                    android:text="লগইন"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:fontFamily="@font/solaimanilipi"
+
+                    android:layout_marginTop="8dp"
+                    android:text="ওর"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:fontFamily="@font/solaimanilipi"
+                    android:textSize="16dp"
+
+                    android:id="@+id/continuewithgoogle"
+                    android:layout_marginTop="16dp"
+                    android:textAllCaps="false"
+                    android:text="কন্টিনিউ উইথ ইন গুগল"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"/>
+
+
+                <View
+
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="#000"
+                    android:layout_width="350dp"
+                    android:layout_height="3dp"/>
+
+
+               <LinearLayout
+                   android:layout_marginTop="30dp"
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:text="নিউ হেয়ার ? "
+                       android:textSize="18dp" />
+                   <TextView
+                       android:fontFamily="@font/solaimanilipi"
+
+                       android:id="@+id/newhere"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:text="    রেজিস্টার "
+                       android:textSize="19dp" />
+
+
+               </LinearLayout>
+                <View
+                    android:background="#F03636"
+                    android:layout_marginLeft="55dp"
+                    android:layout_width="50dp"
+                    android:layout_height="2dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+

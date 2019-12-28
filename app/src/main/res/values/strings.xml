@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">বিসিএস প্রো</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mithun Kumar</string>
+    <string name="nav_header_subtitle">monermithun123@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">সেটিং</string>
+
+    <string name="menu_home">হোম</string>
+    <string name="menu_syllabus">সিলেবাস</string>
+    <string name="menu_Feedback">ফিডব্যাক </string>
+    <string name="menu_rateUs">রেট অ্যাস </string>
+    <string name="menu_share">শেয়ার </string>
+    <string name="menu_logout">লগ আউট</string>
+
+
+    <string name="backButton">বিষয়াবলী</string>
+    <string name="registration">িসিএস প্রো</string>
+    <string name="login">িসিএস প্রো</string>
+    <string name="formpage">বিসিএস প্রো</string>
+
+
+</resources>
